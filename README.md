@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MapModuleSDK
 
 [![CI Status](https://img.shields.io/travis/mafuyuan/MapModuleSDK.svg?style=flat)](https://travis-ci.org/mafuyuan/MapModuleSDK)
@@ -27,3 +28,6 @@ mafuyuan, 937088546@qq.com
 ## License
 
 MapModuleSDK is available under the MIT license. See the LICENSE file for more info.
+=======
+# MapModuleSDK
+>>>>>>> 9e8e572f796a6e124eadac1763ad5ffc212adf2e
