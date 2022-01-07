@@ -31,10 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MapModuleSDK/Classes/**/*'
-<<<<<<< HEAD
   s.swift_version='5.0'
-=======
->>>>>>> 66db16841b2ab5f07e913a3ea719794a03a88094
   
   # s.resource_bundles = {
   #   'MapModuleSDK' => ['MapModuleSDK/Assets/*.png']
