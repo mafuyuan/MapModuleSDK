@@ -1,0 +1,6 @@
+framework module Pods_MapModuleSDK_Example {
+  umbrella header "Pods-MapModuleSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

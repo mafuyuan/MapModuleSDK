@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0863268B8901254A28DC551D /* Pods-MapModuleSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapModuleSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MapModuleSDK_Example/Pods-MapModuleSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2F7080BB0AC7A6E9573F234C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F7080BB0AC7A6E9573F234C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4984C359168CDEC6657B0B8A /* Pods-MapModuleSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapModuleSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MapModuleSDK_Tests/Pods-MapModuleSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MapModuleSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapModuleSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81947460576D8AC8802108D7 /* Pods_MapModuleSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapModuleSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A5F1DB72DCD289D2F5C05BC /* MapModuleSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MapModuleSDK.podspec; path = ../MapModuleSDK.podspec; sourceTree = "<group>"; };
+		8A5F1DB72DCD289D2F5C05BC /* MapModuleSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MapModuleSDK.podspec; path = ../MapModuleSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		936E95994241B575952CD7BE /* Pods-MapModuleSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapModuleSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MapModuleSDK_Example/Pods-MapModuleSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC3839DDAC4E5F005F19C80F /* Pods_MapModuleSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapModuleSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F92B342DF739DBF69A245FD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F92B342DF739DBF69A245FD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				4984C359168CDEC6657B0B8A /* Pods-MapModuleSDK_Tests.debug.xcconfig */,
 				699A15C6CAAB2C487C00AA82 /* Pods-MapModuleSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

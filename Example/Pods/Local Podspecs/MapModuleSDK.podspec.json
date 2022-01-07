@@ -1,0 +1,22 @@
+{
+  "name": "MapModuleSDK",
+  "version": "0.1.0",
+  "summary": "A short description of MapModuleSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mafuyuan/MapModuleSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mafuyuan": "937088546@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mafuyuan/MapModuleSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MapModuleSDK/Classes/**/*"
+}
