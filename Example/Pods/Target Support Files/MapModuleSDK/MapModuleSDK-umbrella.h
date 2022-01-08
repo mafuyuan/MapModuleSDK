@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "LZ4ZipUncompressTool.h"
-#import "TBMapManager.h"
+
 
 FOUNDATION_EXPORT double MapModuleSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char MapModuleSDKVersionString[];
 
+#import <MapModuleSDK/LZ4ZipUncompressTool.h>

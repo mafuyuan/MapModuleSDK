@@ -43,9 +43,9 @@
 		B4AB3A5327883E26004711AA /* AreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3327883E26004711AA /* AreaModel.swift */; };
 		B4AB3A5427883E26004711AA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3427883E26004711AA /* Common.swift */; };
 		B4AB3A5527883E26004711AA /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3527883E26004711AA /* Extension+UIView.swift */; };
-		B4AB3A5627883E26004711AA /* TBMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB3A3627883E26004711AA /* TBMapManager.h */; };
+		B4AB3A5627883E26004711AA /* TBMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB3A3627883E26004711AA /* TBMapManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4AB3A5727883E26004711AA /* Data+GZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3827883E26004711AA /* Data+GZip.swift */; };
-		B4AB3A5827883E26004711AA /* LZ4ZipUncompressTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB3A3927883E26004711AA /* LZ4ZipUncompressTool.h */; };
+		B4AB3A5827883E26004711AA /* LZ4ZipUncompressTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB3A3927883E26004711AA /* LZ4ZipUncompressTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4AB3A5927883E26004711AA /* FileCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3A27883E26004711AA /* FileCacheManager.swift */; };
 		B4AB3A5A27883E26004711AA /* LZ4ZipUncompressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3B27883E26004711AA /* LZ4ZipUncompressTool.m */; };
 		B4AB3A5B27883E26004711AA /* ResolvingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB3A3D27883E26004711AA /* ResolvingDataManager.swift */; };
@@ -116,7 +116,7 @@
 		6EF4D28120531A31AA0DEF08D4A71D9B /* Pods-MapModuleSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapModuleSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7030E35D49B6EDC51A1FC0DF23DAAA57 /* Pods-MapModuleSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapModuleSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		72B0409D407BEC1DC003FB82BC003875 /* MapModuleSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapModuleSDK-dummy.m"; sourceTree = "<group>"; };
-		79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapModuleSDK; path = MapModuleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapModuleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7EB4630CFE0153F29D033634EA06C5BD /* Pods-MapModuleSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapModuleSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8853804BD9180E8C1466AD99D3904720 /* Pods-MapModuleSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapModuleSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -473,7 +473,7 @@
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK */,
+				79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK.framework */,
 				4D230235B37822354EBDB862CFE637AA /* Pods-MapModuleSDK_Example */,
 				C615A753AA5F3E0FB412C34CDC2C22C4 /* Pods-MapModuleSDK_Tests */,
 			);
@@ -589,7 +589,7 @@
 			);
 			name = MapModuleSDK;
 			productName = MapModuleSDK;
-			productReference = 79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK */;
+			productReference = 79FD0665178D07F30EA398ED0EC83478 /* MapModuleSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D3DE6D12858C35F48A51D24690EC33B4 /* Pods-MapModuleSDK_Example */ = {
